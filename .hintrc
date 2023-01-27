@@ -11,6 +11,15 @@
     ],
     "no-inline-styles": "off",
     "disown-opener": "off",
-    "axe/forms": "off"
+    "axe/forms": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[allow]",
+          "iframe[loading]"
+        ]
+      }
+    ]
   }
 }
